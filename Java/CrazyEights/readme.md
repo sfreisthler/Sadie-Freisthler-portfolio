@@ -5,42 +5,21 @@ This folder contains classes necessary to play a command line version of the gam
 
 ### Classes
 **Card**
-A template for card objects. Contains accessor methos getRank() and getSuit() that return the respective rank and suit of 
+Models a card. Contains accessor methos getRank() and getSuit() that return the respective rank and suit of 
 the card on which the method is called. Also has a toString() method which returns a human readable version of the card.
 
 **Deck**
-A template for deck objects. Method canDeal() returns a boolean that states whether or not there are cards left to deal in
-the deck. 
+Models a deck of cards. First the deck is populated with 52 card objects. Method canDeal() returns a boolean that states 
+whether or not there are cards left to deal in the deck. The method shuffle() shuffels the deck by switching two random cards
+1000 times. The toString() method displays the cards in the deck in a human readable format.
 
 **Player**
+Models the human player. The player is prompted to choose a card to play. Error messages are returned if the card is not playable
+according to the rules of crazy eights until the player plays a playable card. 
 
 **Game**
 
 **CrazyEights**
-
-
-Deck class
-
-The deck class starts by instantiating the variable for deck, char, and suits. Then I populated the deck
-with all of the cards using nested for loops to iterate through all of the possible suits and ranks. The deal()
-method deals the top card of the deck by first increasing the variable top by one and then returning the top card
-of the deck. The method canDeal() returns a boolean that states whether or not there are cards left in the deck 
-to deal. The method shuffle() shuffles the deck by switching two random cards in the deck one thousand times.
-Finally, the toString() method makes sure that the deck is in human readable format by iterating through all of
-the cards in the deck and adding them to a string for deck description. This string is then returned.
-
-
-Player class
-
-The addCard() method adds a card to the hand. In the playsTurn() method, the Card, cardPlayed, is instantiated
-and the method directions() is called to print the current card and suit. User input is then taken. While the 
-user's input is equal to "draw" cards are added to the player's hand. After this while loop is broken, if the 
-deck is out of cards the variable cardPlayed is set equal to null. Else, the user's input is converted to an 
-integer and the cardPlayed is set equal to the card at that index of the player's hand. I used a method canPlay()
-to check whether the card is a valid play. While canPLay() is equal to false. The player is told that they 
-cannot play that card and they are then prompted to choose another card. While this input is equal to "draw"
-cards are added to the player's hand. Finally when they input a valid play, the card is removed from their hand
-and returned. 
 
 
 
