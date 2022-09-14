@@ -1,8 +1,8 @@
 ## Crazy Eights
 
 ### Description
-This folder contains classes necessary to play a command line version of the game crazy eights between a human player and a computer. 
-In crazy eights players take turn playing cards that match either the suit or number of the current faceup card. If the player plays an
+This folder contains classes necessary to play a command line version of the game Crazy Eights between a human player and a computer. 
+In Crazy Eights players take turn playing a card that match either the suit or number of the current faceup card. If the player plays an
 eight, they can change the suit. Whoever runs out of cards first wins!
 
 ### Classes
@@ -21,9 +21,10 @@ until the player plays a playable card. Contains methods to deal hand, remove ca
 and give game directions.
 
 **Game**
-Models a game of crazy eights. The end() method returns a boolean that tells the program if the game is over. The play() method
-has all of the functionality necessary to play a game of crazy eights. While end() returns false, the computer and player are
+Models a game of Crazy Eights. The end() method returns a boolean that tells the program if the game is over. The play() method
+has all of the functionality necessary to play a game of Crazy Eights. While end() returns false, the computer and player are
 prompted to take turns until one of the end conditions are met. 
 
 **CrazyEights**
+Calls the play() method to play a game of Crazy Eights until the user states they are done playing.
 
