@@ -15,5 +15,5 @@ At Glitch Forge, my focus was on developing their new On-Demand platform. The go
 and allow customers to buy pieces on the spot. Users are shown example images that are representative of the art they are buying. However, when
 they buy a piece, a one of a kind work is generated from the code and images the artist provides. 
 
-While most of the code I wrote is private, **ondemand_collections.py** is an example of some of the code I worked on. This is a contract that governs collections on the tezos blockchain. Among many other things, it has the functionality to create a collection, delete a collection, and update a collection.
+While most of the code I wrote is private, **ondemand_collections.py** is an example of code I worked on. This is a contract that governs collections on the tezos blockchain. Among many other things, it has the functionality to create a collection, delete a collection, and update a collection.
 
