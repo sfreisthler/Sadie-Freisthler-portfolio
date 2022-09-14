@@ -14,10 +14,13 @@ whether or not there are cards left to deal in the deck. The method shuffle() sh
 1000 times. The toString() method displays the cards in the deck in a human readable format.
 
 **Player**
-Models the human player. The player is prompted to choose a card to play. Error messages are returned if the card is not playable
-according to the rules of crazy eights until the player plays a playable card. 
+Models the human player. The player is prompted to choose a card to play. Error messages are returned if the card is not playable 
+until the player plays a playable card. Contains methods to deal hand, remove card from hand, 
+and give game directions.
 
 **Game**
+Models a game of crazy eights. The end() method returns a boolean that tells the program if the game is over. The play() method
+has all of the functionality necessary to play a game of crazy eights. While 
 
 **CrazyEights**
 
