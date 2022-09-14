@@ -1,10 +1,22 @@
-Card class
+## Crazy Eights
 
-The card class has accessor methods getRank() and getSuit() which returns the respective rank or suit of
-the card on which the method is called. There is also a toString() method which returns a human readable 
-version of the card. I used a switch statement to assign the names of the suit based on the char in the suit 
-variable. I used an array with all of the different card rank values and indexed this array to get the human
-readable versions of the suits. 
+### Description
+This folder contains classes necessary to play a command line version of the game crazy eights.
+
+### Classes
+**Card**
+A template for card objects. Contains accessor methos getRank() and getSuit() that return the respective rank and suit of 
+the card on which the method is called. Also has a toString() method which returns a human readable version of the card.
+
+**Deck**
+A template for deck objects. Method canDeal() returns a boolean that states whether or not there are cards left to deal in
+the deck. 
+
+**Player**
+
+**Game**
+
+**CrazyEights**
 
 
 Deck class
