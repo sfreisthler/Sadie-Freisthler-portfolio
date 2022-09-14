@@ -72,9 +72,6 @@ class Game{
     /* Naive computer player AI that does one of two actions:
         1) Plays the first card in their hand that is a valid play
         2) If no valid cards, draws until they can play
-
-        You may choose to use a different approach if you wish but
-        this one is fine and will earn maximum marks
      */
     private Card computerTurn(Deck deck){
         boolean playableCard = false;
@@ -181,9 +178,4 @@ class Game{
         }
         return end;
     }
-
-// you will likely wish to have several more helper methods to simplify
-// and shorten the methods above.
-
-
 }
