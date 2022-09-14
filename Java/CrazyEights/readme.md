@@ -1,7 +1,9 @@
 ## Crazy Eights
 
 ### Description
-This folder contains classes necessary to play a command line version of the game crazy eights.
+This folder contains classes necessary to play a command line version of the game crazy eights between a human player and a computer. 
+In crazy eights players take turn playing cards that match either the suit or number of the current faceup card. If the player plays an
+eight, they can change the suit. Whoever runs out of cards first wins!
 
 ### Classes
 **Card**
