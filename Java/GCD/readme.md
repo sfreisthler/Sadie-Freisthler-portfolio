@@ -1,4 +1,4 @@
-## GCD.java
+## GCD
 
 ### Description
 This program calculates the greatest common devisor of two numbers both recursively and iteratively. 
