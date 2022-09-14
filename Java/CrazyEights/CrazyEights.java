@@ -1,7 +1,5 @@
 /** CrazyEights.java
 *   
-*   Do not modify this one
-*   
 *   Plays a game of crazy eights in commandline
 *   Keeps playing while the game play method returns true
 *
