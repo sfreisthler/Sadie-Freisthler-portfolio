@@ -1,3 +1,16 @@
+## Odd/Even Game
+
+### Description
+This is a two player game. Each player simultaneously declares "one" or "two". Player 1 wins if the sum of the two numbers is odd and Player 2 wins if the sum of the two numbers is even. In either case the loswer is obligated to pay the winner (in tokens) the sum of the two declared numbers. Scores are cumulative across rounds.
+
+### Classes
+
+**ComputerPlayer:**
+
+**Simulation:**
+
+**Game:**
+
 @author srf2156
 
 Part 1:
