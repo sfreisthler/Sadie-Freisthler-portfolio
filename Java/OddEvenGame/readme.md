@@ -6,6 +6,7 @@ This is a two player game. Each player simultaneously declares "one" or "two". P
 ### Classes
 
 **ComputerPlayer:**
+This class models the computer player in the game. It contains mutator methods to alter the score of the computer, addScore() and subtractScore(), and an accessor method, getScore() to return the computer's score. The playComputer() method determines if the computer throws a 1 or a 2 depending on a given threshold using Math.random().
 
 **Simulation:**
 
@@ -24,13 +25,6 @@ or p2IsHuman to true depending on which player the user chooses. This boolean va
 methods to determine what method to use or variable to reference in order to determine the scores of the players.
 The method announceWinner() gets both p1 and p2's scores, determines who the winner is and prints the winner to the
 console.  
-
-ComputerPlayer
-
-In the ComputerPlayer class, I created several methods to govern the computer's game play actions. 
-There are methods to add and subtract tokens from the computer's score as well as a method to retrieve the current 
-token total. In the play method, I used Math.random() to generate a random double and had the computer either throw 
-a one or a two depending on the given threshold.
 
 
 Part 2:
