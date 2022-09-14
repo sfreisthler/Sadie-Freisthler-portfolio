@@ -8,9 +8,9 @@ Have a look around!
 ### Glitch Forge
 An NFT platform for glitch artists.
 
-### Python
-A collection of python projects.
-
 ### Java
 A collection of java projects.
+
+### Python
+A collection of python projects.
 
