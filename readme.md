@@ -4,12 +4,10 @@ Hello, my name is Sadie Freisthler and I am a Computer Engineering student at Co
 
 Have a look around!
 
-### Glitch Forge
-An NFT platform for glitch artists.
+**Glitch Forge:** An NFT platform for glitch artists.
 
-### Java
-A collection of java projects.
+**Java:** A collection of Java projects.
 
-### Python
-A collection of python projects.
+**Python:** A collection of Python projects.
+
 
