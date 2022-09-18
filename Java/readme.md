@@ -2,7 +2,6 @@
 
 ### Data Structures
 - Greatest Commen Divisor (GCD)
-- Recursion Exercises
 
 ### Intro to Java
 - Crazy Eights
