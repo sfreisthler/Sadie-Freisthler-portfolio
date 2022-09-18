@@ -87,19 +87,19 @@ key = np.load('key.npy')
 
 # part 1
 plt.imshow(onechannel(pattern, 0))
-plt.pause(0.001)
+plt.pause(30)
 plt.imshow(onechannel(pattern, 1))
-plt.pause(0.001)
+plt.pause(30)
 plt.imshow(onechannel(pattern, 2))
-plt.pause(0.001)
+plt.pause(30)
 
 # part 2
 plt.imshow(permutecolorchannels(pattern, [1,0,2]))
-plt.pause(0.001)
+plt.pause(30)
 plt.imshow(permutecolorchannels(pattern, [2,0,1]))
-plt.pause(0.001)
+plt.pause(30)
 plt.imshow(permutecolorchannels(permcolors, [1,2,0]))
-plt.pause(0.001)
+plt.pause(30)
 
 # part 3
 plt.imshow(decrypt(secret, key))
