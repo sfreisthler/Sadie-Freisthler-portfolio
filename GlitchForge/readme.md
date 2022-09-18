@@ -4,6 +4,10 @@
 
 <img src="GlitchForge.png" style="width:200px;height:200px;">
 
+**Forge Awaken #9**      
+**Owned By:** tz1YPsuZ4UZ8EHef8PTsy9knA1rbuetsC7be
+
+
 
 ### Description
 Glitch Forge is a hybrid generative NFT platform that creates art that uses programming tools and raw materials to forge new art when collectors mint it. The main mechanic, is an auction mechanic. Users place a starting bid to have a unique art piece generated during an auction. If they like their piece, they keep bidding. Only the highest bidders have their unique pieces minted. 
