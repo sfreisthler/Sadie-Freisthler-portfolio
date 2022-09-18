@@ -1,6 +1,6 @@
 ## Glitch Forge
 
-Website: https://glitchforge.xyz/
+**Website:** https://glitchforge.xyz/
 
 <img src="GlitchForge.png" style="width:200px;height:200px;">
 
